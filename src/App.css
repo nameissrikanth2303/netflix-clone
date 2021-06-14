@@ -1,19 +1,9 @@
 * {
   margin: 0;
 }
-body::-webkit-scrollbar {
-  display: none;
-}
 .app {
   background-color: #111;
 }
-.nav__black {
-  background-color: #111;
-}
-.footer {
-  padding: 25px;
-  text-align: center;
-  color: #fff;
-  font-size: 18px;
-  font-weight: 600;
+.nav__black{
+    background-color: #111;
 }

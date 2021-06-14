@@ -6,6 +6,8 @@ import request from "./request";
 import Banner from "./Banner";
 import Nav from "./Nav";
 
+
+
 function App() {
   return (
     <div className="app">
@@ -19,8 +21,7 @@ function App() {
       <Row fetchUrl={request.fetchRomanceMovies} title="Romance Movies" />
       <Row fetchUrl={request.fetchTopRated} title="Top Rated" />
       <Row fetchUrl={request.fetchDocumentaries} title="Documentaries" />
-
-      <div className="footer">© Designed By Nameisloki 2021</div>
+  
     </div>
   );
 }
